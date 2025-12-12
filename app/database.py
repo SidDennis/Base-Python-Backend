@@ -6,4 +6,4 @@ COLLECTION = ""
 
 client = AsyncIOMotorClient(URI)
 db = client[DATABASE]
-collection = db[COLLECTION]
+user_collection = db[COLLECTION]
